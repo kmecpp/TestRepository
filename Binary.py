@@ -11,13 +11,13 @@ def main():
             for char in reversed(binary):
                 final += int(char) * multiplier
                 multiplier = multiplier*2
-            print("Binary equivilant: " + str(final))
+            print("Decimal equivilant: " + str(final))
             main()
     except Exception:
         inputException()
         input()
         main()
 def inputException():
-    print("I said enter a binary number you ignorant fucking retard!")
+    print("I said enter a binary number yah potato!")
 
 main()
